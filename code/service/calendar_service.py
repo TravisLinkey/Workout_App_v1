@@ -10,6 +10,9 @@ from googleapiclient.discovery import build
 from utils.utilities import Utilities
 
 class Service:
+    cred_file_path = 'code/utils/credentials.json'
+    pickle_file_path = 'code/utils/token.pickle'
+
     # If modifying these scopes, delete the file token.pickle.
     SCOPES = ['https://www.googleapis.com/auth/calendar.events']
     creds = None
@@ -19,8 +22,8 @@ class Service:
         # The file token.pickle stores the user's access and refresh tokens, and is
         # created automatically when the authorization flow completes for the first
         # time.
-        if os.path.exists('token.pickle'):
-            with open('token.pickle', 'rb') as token:
+        if os.path.exists(self.pickle_file_path):
+            with open(self.pickle_file_path, 'rb') as token:
                 self.creds = pickle.load(token)
         # If there are no (valid) credentials available, let the user log in.
         if not self.creds or not self.creds.valid:
@@ -28,10 +31,10 @@ class Service:
                 self.creds.refresh(Request())
             else:
                 flow = InstalledAppFlow.from_client_secrets_file(
-                    'credentials.json', self.SCOPES)
+                    self.cred_file_path, self.SCOPES)
                 self.creds = flow.run_local_server(port=0)
             # Save the credentials for the next run
-            with open('token.pickle', 'wb') as token:
+            with open(self.pickle_file_path, 'wb') as token:
                 pickle.dump(self.creds, token)
 
         # create the service object
@@ -62,19 +65,3 @@ class Service:
         self.service.events().insert(calendarId='primary', body=event).execute()
         return event
 
-
-    # unused
-    # def get_upcoming_events(self):
-    #     # Call the Calendar API
-    #     now = datetime.datetime.utcnow().isoformat() + 'Z'  # 'Z' indicates UTC time
-    #     print('Getting the upcoming 10 events: \n')
-    #     events_result = self.service.events().list(calendarId='primary', timeMin=now,
-    #                                           maxResults=10, singleEvents=True,
-    #                                           orderBy='startTime').execute()
-    #     events = events_result.get('items', [])
-    #
-    #     if not events:
-    #         print('No upcoming events found.')
-    #     for event in events:
-    #         start = event['start'].get('dateTime', event['start'].get('date'))
-    #         print(start, event['summary'])

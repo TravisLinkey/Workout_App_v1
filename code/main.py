@@ -1,5 +1,5 @@
 from __future__ import print_function
-from service.login import Service
+from service.calendar_service import Service
 
 def main():
     """Shows basic usage of the Google Calendar API.

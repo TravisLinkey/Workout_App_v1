@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6ab6d905-2eb8-4fc5-aa9c-d933b9dea67a" name="Default Changelist" comment="" />
+    <list default="true" id="6ab6d905-2eb8-4fc5-aa9c-d933b9dea67a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/pages/home.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/credentials.json" beforeDir="false" afterPath="$PROJECT_DIR$/code/utils/credentials.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/service/calendar_service.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/service/calendar_service.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/token.pickle" beforeDir="false" afterPath="$PROJECT_DIR$/code/utils/token.pickle" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,7 +24,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1W5Ax7KE4VNxFBXqwQJztYnbHDY" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -24,9 +37,13 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/code/utils" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/code" />
     </key>
@@ -114,9 +131,9 @@
     <state width="1257" height="268" key="GridCell.Tab.0.right/0.1024.1600.900/164.0.1280.1024@164.0.1280.1024" timestamp="1580161525275" />
     <state width="1510" height="219" key="GridCell.Tab.0.right/67.0.1533.1924@67.0.1533.1924" timestamp="1578433874019" />
     <state width="1510" height="219" key="GridCell.Tab.0.right/67.27.1533.873@67.27.1533.873" timestamp="1578429558796" />
-    <state x="496" y="1236" width="672" height="678" key="search.everywhere.popup" timestamp="1580251119154">
+    <state x="496" y="1236" width="672" height="678" key="search.everywhere.popup" timestamp="1580319853694">
       <screen x="0" y="1024" width="1600" height="900" />
     </state>
-    <state x="496" y="1236" width="672" height="678" key="search.everywhere.popup/0.1024.1600.900/164.0.1280.1024@0.1024.1600.900" timestamp="1580251119154" />
+    <state x="496" y="1236" width="672" height="678" key="search.everywhere.popup/0.1024.1600.900/164.0.1280.1024@0.1024.1600.900" timestamp="1580319853694" />
   </component>
 </project>
