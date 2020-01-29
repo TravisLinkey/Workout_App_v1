@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="6ab6d905-2eb8-4fc5-aa9c-d933b9dea67a" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1W5Ax7KE4VNxFBXqwQJztYnbHDY" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/code" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Workout_App" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6ab6d905-2eb8-4fc5-aa9c-d933b9dea67a" name="Default Changelist" comment="" />
+      <created>1578429325119</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1578429325119</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="540" y="269" width="424" height="484" key="FileChooserDialogImpl" timestamp="1580164774849">
+      <screen x="164" y="0" width="1280" height="1024" />
+    </state>
+    <state x="540" y="269" key="FileChooserDialogImpl/0.1024.1600.900/164.0.1280.1024@164.0.1280.1024" timestamp="1580164774849" />
+    <state x="423" y="269" width="424" height="484" key="FileChooserDialogImpl/0.1024.1600.900/67.0.1213.1024@67.0.1213.1024" timestamp="1578524862600" />
+    <state width="1257" height="268" key="GridCell.Tab.0.bottom" timestamp="1580161525275">
+      <screen x="164" y="0" width="1280" height="1024" />
+    </state>
+    <state width="1257" height="268" key="GridCell.Tab.0.bottom/0.1024.1600.900/164.0.1280.1024@164.0.1280.1024" timestamp="1580161525275" />
+    <state width="1510" height="219" key="GridCell.Tab.0.bottom/67.0.1533.1924@67.0.1533.1924" timestamp="1578433874019" />
+    <state width="1510" height="219" key="GridCell.Tab.0.bottom/67.27.1533.873@67.27.1533.873" timestamp="1578429558797" />
+    <state width="1257" height="268" key="GridCell.Tab.0.center" timestamp="1580161525274">
+      <screen x="164" y="0" width="1280" height="1024" />
+    </state>
+    <state width="1257" height="268" key="GridCell.Tab.0.center/0.1024.1600.900/164.0.1280.1024@164.0.1280.1024" timestamp="1580161525274" />
+    <state width="1510" height="219" key="GridCell.Tab.0.center/67.0.1533.1924@67.0.1533.1924" timestamp="1578433874018" />
+    <state width="1510" height="219" key="GridCell.Tab.0.center/67.27.1533.873@67.27.1533.873" timestamp="1578429558796" />
+    <state width="1257" height="268" key="GridCell.Tab.0.left" timestamp="1580161525274">
+      <screen x="164" y="0" width="1280" height="1024" />
+    </state>
+    <state width="1257" height="268" key="GridCell.Tab.0.left/0.1024.1600.900/164.0.1280.1024@164.0.1280.1024" timestamp="1580161525274" />
+    <state width="1510" height="219" key="GridCell.Tab.0.left/67.0.1533.1924@67.0.1533.1924" timestamp="1578433874018" />
+    <state width="1510" height="219" key="GridCell.Tab.0.left/67.27.1533.873@67.27.1533.873" timestamp="1578429558795" />
+    <state width="1257" height="268" key="GridCell.Tab.0.right" timestamp="1580161525275">
+      <screen x="164" y="0" width="1280" height="1024" />
+    </state>
+    <state width="1257" height="268" key="GridCell.Tab.0.right/0.1024.1600.900/164.0.1280.1024@164.0.1280.1024" timestamp="1580161525275" />
+    <state width="1510" height="219" key="GridCell.Tab.0.right/67.0.1533.1924@67.0.1533.1924" timestamp="1578433874019" />
+    <state width="1510" height="219" key="GridCell.Tab.0.right/67.27.1533.873@67.27.1533.873" timestamp="1578429558796" />
+    <state x="496" y="1236" width="672" height="678" key="search.everywhere.popup" timestamp="1580251119154">
+      <screen x="0" y="1024" width="1600" height="900" />
+    </state>
+    <state x="496" y="1236" width="672" height="678" key="search.everywhere.popup/0.1024.1600.900/164.0.1280.1024@0.1024.1600.900" timestamp="1580251119154" />
+  </component>
+</project>
